@@ -34,7 +34,7 @@
                             <!--<addClasspath>true</addClasspath>
                             <classpathPrefix>libs/</classpathPrefix>-->
                             <mainClass>
-                                RandomWords
+                                SetAndGet
                             </mainClass>
                         </manifest>
                     </archive>

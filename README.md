@@ -5,8 +5,8 @@ Three small examples on using the Wolfram Language from within Java.
 You need to have installed a Wolfram Engine, which means you need either
 
  1. The free Wolfram Engine, which can be obtained from [Free Wolfram Engine for Developers](https://www.wolfram.com/engine/) 
- 2. A Raspberry Pie, 
- 3. or another Wolfram product
+ 2. A Raspberry Pie (which has a pre-installed Wolfram Engine), 
+ 3. or another Wolfram product.
 
 As this is very much a proof of concept, some things are hardcoded. Look for this in the Java classes 😁. 
 
