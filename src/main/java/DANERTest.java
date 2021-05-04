@@ -13,6 +13,8 @@ public class DANERTest {
 
         // CONFIGURATION
         String mathKernelPath = "/Applications/Mathematica.app/Contents/MacOS/MathKernel";
+        // @ miaplacidus
+        //mathKernelPath = "/opt/wolframengine/12.2/SystemFiles/Kernel/Binaries/Linux-x86-64/WolframKernel";
         if (argv.length == 0) {
             argv = new String[]{
                     "-linkmode",
@@ -61,6 +63,10 @@ public class DANERTest {
         // Now for the real test (< 1s on a laptop)
         System.out.println("Now for the real test - takes less that a second:");
         System.out.println(ml.evaluateToOutputForm("findSimilarFaces[\"http://17053.dk/pmd.png\",2]", 0));
+
+        for (int i = 0; i <20; i++) {
+            System.out.println(ml.evaluateToOutputForm("findSimilarFaces[\"http://17053.dk/pmd.png\",2]", 0));
+        }
 
         // Let's leave the kernel
         System.out.println("## Say Goodbye 👋");
